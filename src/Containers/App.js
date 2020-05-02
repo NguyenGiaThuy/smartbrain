@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import './App.css';
-import Navigation from '../Components/Navigation';
-import Logo from '../Components/Logo.js';
-import ImageLinkForm from '../Components/ImageLinkForm.js';
-import Rank from '../Components/Rank';
+import Navigation from '../components/Navigation';
+import Logo from '../components/Logo.js';
+import ImageLinkForm from '../components/ImageLinkForm.js';
+import Rank from '../components/Rank';
 import Particles from 'react-particles-js';
 import Clarifai from 'clarifai';
-import FaceRecognition from '../Components/FaceRecognition.js';
-import Registration from '../Components/SignIn';
-import SignIn from '../Components/SignIn';
-import SignUp from '../Components/SignUp';
+import FaceRecognition from '../components/FaceRecognition.js';
+import Registration from '../components/SignIn';
+import SignIn from '../components/SignIn';
+import SignUp from '../components/SignUp';
 
 const particleOptions = {
   particles: {
